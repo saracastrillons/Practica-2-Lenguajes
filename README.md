@@ -71,9 +71,4 @@ Como no pude descargar Prolog, lo hice en línea usando SWISH
 
 1. Abrir SWISH
 2. Pegas el código completo
-3. Escribir consultas con
-```prolog
-case1(Result).
-```
-
 
