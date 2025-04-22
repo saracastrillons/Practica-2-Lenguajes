@@ -8,14 +8,14 @@ Sara Castrillón Sánchez
 ### 1. **Catálogo de vehículos**
 Primero declare varios vehículos con el predicado:
 
-```prolog
+
 vehicle(Marca, Referencia, Tipo, Precio, Año).
-```
+
 
 Por ejemplo:
-```prolog
+
 vehicle(toyota, rav4, suv, 28000, 2022).
-```
+
 
 Agregué 10 vehículos de marcas como toyota, ford, honda y BMW.
 
@@ -25,15 +25,15 @@ Agregué 10 vehículos de marcas como toyota, ford, honda y BMW.
 
 Hice un predicado que sirve para saber si un vehículo está dentro del presupuesto de un cliente
 
-```prolog
+
 meet_budget(Referencia, PresupuestoMax).
-```
+
 
 Y también uno para listar todas las referencias de una marca, con `findall`:
 
-```prolog
+
 list_by_brand(Marca, Lista).
-```
+
 
 ---
 
@@ -41,9 +41,9 @@ list_by_brand(Marca, Lista).
 
 Después hice un reporte con este predicado
 
-```prolog
+
 generate_report(Marca, Tipo, Presupuesto, Resultado).
-```
+
 
 Este filtra los vehículos por marca y tipo, y que no se pasen del presupuesto. y usé una función `sum_prices` para sumar el precio de todos los vehículos seleccionados, y así verificar que sí está dentro del presupuesto.
 
@@ -51,7 +51,7 @@ Este filtra los vehículos por marca y tipo, y que no se pasen del presupuesto. 
 
 ### 4. **Casos de prueba**
 
-Estos casos son para comprobar que todo el sistema funciona
+Estos casos son para comprobar que funciona
 
 - `case1(Result).`  
   → Devuelve todos los SUV Toyota con precio menor a $30,000
@@ -66,9 +66,8 @@ Estos casos son para comprobar que todo el sistema funciona
 
 ## 🛠 IDE
 
-Como no pude descargar Prolog, lo trabajé en línea usando SWISH
+Como no pude descargar Prolog, lo hice en línea usando SWISH
 
-Para ejecutarlo
 
 1. Abrir SWISH
 2. Pegas el código completo
