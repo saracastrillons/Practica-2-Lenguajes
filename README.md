@@ -64,7 +64,7 @@ Estos casos son para comprobar que funciona
 
 ---
 
-## 🛠 IDE
+##  IDE
 
 Como no pude descargar Prolog, lo hice en línea usando SWISH
 
